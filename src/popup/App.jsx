@@ -1,10 +1,10 @@
 import React from 'react';
+import Chat from './Chat.jsx';
 
 function App() {
   return (
-    <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
-      <h1>Bienvenido a Skanea</h1>
-      <p>Tu extensión está funcionando correctamente.</p>
+    <div style={{ height: '100vh', width: '100%', fontFamily: 'sans-serif' }}>
+      <Chat />
     </div>
   );
 }
