@@ -5,7 +5,7 @@ chrome.action.onClicked.addListener(() => {
     const leftPos = display.workArea.width - 400;
 
     chrome.windows.create({
-      url: 'popup.html',
+      url: 'src/popup/popup.html',
       type: 'popup',
       width: 360,
       height: 500,
