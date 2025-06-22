@@ -3,7 +3,7 @@
   "name": "Skanea",
   "description": "Extensión de inteligencia artificial personalizada",
   "version": "1.0",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab", "scripting", "system.display"],
   "action": {
     "default_icon": {
       "16": "resources/icon.png",
