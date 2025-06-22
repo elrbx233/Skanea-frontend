@@ -1,3 +1,4 @@
+/* global chrome */
 chrome.action.onClicked.addListener(() => {
   chrome.system.display.getInfo((displays) => {
     const display = displays[0];
