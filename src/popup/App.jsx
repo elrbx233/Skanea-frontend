@@ -16,6 +16,7 @@ function App() {
             className="history-btn"
             onClick={() => setShowHistory(!showHistory)}
             aria-label="Historial"
+            title="Historial"
           >
             🕘
           </button>
@@ -26,6 +27,7 @@ function App() {
             className="settings-btn"
             onClick={() => setShowSettings(true)}
             aria-label="Ajustes"
+            title="Ajustes"
           >
             ⚙️
           </button>
