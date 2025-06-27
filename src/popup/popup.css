@@ -87,6 +87,12 @@ p {
   cursor: pointer;
 }
 
+.chat-history-empty {
+  padding: 0.5rem 0;
+  color: #aaa;
+  font-style: italic;
+}
+
 .chat-area {
   flex: 1;
   display: flex;
