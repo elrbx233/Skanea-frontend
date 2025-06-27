@@ -65,6 +65,7 @@ p {
   position: relative;
 }
 
+/* Historial */
 .chat-history {
   position: absolute;
   top: 0;
@@ -93,6 +94,7 @@ p {
   font-style: italic;
 }
 
+/* Chat */
 .chat-area {
   flex: 1;
   display: flex;
@@ -116,6 +118,7 @@ p {
   cursor: pointer;
 }
 
+/* Logo */
 .logo-container {
   flex: 1;
   display: flex;
@@ -126,6 +129,7 @@ p {
   height: 24px;
 }
 
+/* Ajustes */
 .settings-overlay {
   position: absolute;
   top: 0;

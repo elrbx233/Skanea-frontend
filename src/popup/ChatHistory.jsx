@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ChatHistory() {
-  const chats = [];
+  const chats = []; // o ['Chat 1', 'Chat 2'] si es para testing
 
   return (
     <div className="chat-history">

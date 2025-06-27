@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="app-container">
+      {showHistory && <ChatHistory />}
       <div className="chat-area">
         <div className="top-bar">
           <button
@@ -18,7 +19,7 @@ function App() {
             aria-label="Historial"
             title="Historial"
           >
-            🕘
+            📜
           </button>
           <div className="logo-container">
             <img src={logo} alt="Skanea logo" className="logo" />
@@ -34,7 +35,6 @@ function App() {
         </div>
         <Chat />
       </div>
-      {showHistory && <ChatHistory />}
       {showSettings && <SettingsOverlay onClose={() => setShowSettings(false)} />}
     </div>
   );
