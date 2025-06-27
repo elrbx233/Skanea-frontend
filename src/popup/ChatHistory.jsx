@@ -5,6 +5,7 @@ function ChatHistory() {
 
   return (
     <div className="chat-history">
+      <h3>Historial</h3>
       {chats.map((chat, index) => (
         <div key={index} className="chat-history-item">
           {chat}
